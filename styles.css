@@ -17,6 +17,7 @@ body {
   flex-direction: column;
   align-items: center;
   padding-top: 64px;
+  padding: 16px;
 }
 
 html {
@@ -49,7 +50,6 @@ h2 {
   justify-content: center;
   align-items: center;
   position: relative;
-  gap: 8px;
   padding-top: 80px;
   margin-top: 120px;
   filter: drop-shadow(0px 0px 15px rgba(0, 0, 0, 0.2));
@@ -81,23 +81,22 @@ h2 {
   padding-bottom: 1.5rem;
 }
 
-.bg {
-  fill: #212121 !important;
+.download-buttons {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  gap: 16px;
 }
 
-.appstore:hover .bg {
-  fill: #414141 !important;
+.appstore {
+  width: 100%;
 }
 
-.playstore:hover .bg {
-  fill: #414141 !important;
+.playstore {
+  width: 100%;
 }
 
-.appstore:active .bg {
-  fill: #414141 !important;
-}
-
-.playstore:active .bg {
+.playstore {
   fill: #414141 !important;
 }
 
