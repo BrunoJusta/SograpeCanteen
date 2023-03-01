@@ -51,7 +51,9 @@
             alt="Logo App Go! by Trivalor"
             class="icon"
           />
-          <p class="text">Faça o download da aplicação.</p>
+          <p class="text">
+            Faça o <a id="myLink" href="#">download</a> da aplicação.
+          </p>
         </div>
         <div class="step">
           <img
@@ -129,6 +131,21 @@
           .then(() => {})
           .catch((err) => {});
       }
+
+      var myLink = document.getElementById("myLink");
+      myLink.addEventListener("click", function () {
+        var userAgent = navigator.userAgent || navigator.vendor || window.opera;
+
+        if (/iPad|iPhone|iPod/.test(userAgent) && !window.MSStream) {
+          // iOS detected
+          window.location.href =
+            "https://apps.apple.com/pt/app/go-by-trivalor/id1535223230";
+        } else {
+          // Not iOS
+          window.location.href =
+            "https://play.google.com/store/apps/details?id=com.trivalor.appconsumidor&hl=pt_PT&gl=US";
+        }
+      });
     </script>
   </body>
 </html>
