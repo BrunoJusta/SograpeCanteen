@@ -98,6 +98,13 @@ html {
   padding-bottom: 24px;
   color: #4a5568;
 }
+#myLink {
+  font-family: "Outfit", sans-serif;
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 1.2;
+  color: #b05433;
+}
 
 label {
   font-family: "Outfit", sans-serif;
