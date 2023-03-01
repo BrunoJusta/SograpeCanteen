@@ -128,7 +128,9 @@
         const textToCopy = document.querySelector("#text-to-copy").textContent;
         navigator.clipboard
           .writeText(textToCopy)
-          .then(() => {})
+          .then(() => {
+            alert("texto copiado");
+          })
           .catch((err) => {});
       }
 
