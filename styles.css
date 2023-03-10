@@ -29,7 +29,7 @@ html {
 
 .container {
   background-color: white;
-  padding: 24px;
+  padding: 16px;
   display: flex;
   flex-direction: column;
   border-radius: 12px;
@@ -125,7 +125,7 @@ label {
   display: flex;
   width: 100%;
   justify-content: space-between;
-  padding: 8px 16px 8px 16px;
+  padding: 8px;
   border: 1.5px solid #cbd5e0;
   border-radius: 8px;
   margin-bottom: 24px;
