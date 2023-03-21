@@ -151,3 +151,14 @@ label {
 .btn-copy:hover .copy {
   fill: #2a2a2a !important;
 }
+
+.faqs {
+  background-color: transparent;
+  border: none;
+  font-family: "Outfit", sans-serif;
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 1.2;
+  color: #b05433;
+  padding-top: 1rem;
+}
